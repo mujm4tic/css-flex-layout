@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.mflex{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.lpflex{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.rpflex{
+    display: flex;
+    justify-content: right;
+}
