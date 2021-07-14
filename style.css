@@ -6,7 +6,7 @@
 
 .mflex{
     display: flex;
-    justify-content: left;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
@@ -19,4 +19,9 @@
 .rpflex{
     display: flex;
     justify-content: right;
+    border: 2px solid black;
+}
+
+.lpflex div{
+    border: 2px solid black;
 }
