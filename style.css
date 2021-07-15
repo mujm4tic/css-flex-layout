@@ -3,25 +3,81 @@
     padding: 0px;
 }
 
+.logo{
+    background-color: green;
+}
+
+.hflex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.hlflex{
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+header{
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.hlflex h1{
+    margin: 0px 20px;
+}
 
 .mflex{
     display: flex;
-    justify-content: space-evenly;
     flex-direction: row;
+    justify-content: center;
+    margin: 0px 40px;
+    /* should have height value */
 }
 
 .lpflex{
     display: flex;
-    justify-content: left;
     flex-direction: column;
+    margin-top: 10px;
+}
+
+.flex-p{
+    margin: 5px 0px;
 }
 
 .rpflex{
     display: flex;
-    justify-content: right;
+    flex-direction: column;
     border: 2px solid black;
+    margin-left: 40px;
+    margin-top: 15px;
+    padding: 10px 10px;
+}
+
+.rpflex p{
+    margin-top: 10px;
 }
 
 .lpflex div{
     border: 2px solid black;
+    min-width: 1100px;
+    padding-left: 20px;
 }
+
+.lpflex h2{
+    margin-top: 10px;
+}
+
+.flex-p ul{
+    justify-content: space-between;
+    padding: 10px 50px;    
+}
+
+.flex-p ul li{
+    justify-content: space-between;
+    margin: 10px;
+}
+
